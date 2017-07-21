@@ -19,14 +19,15 @@ html {
 
 body {
   border: 1px solid #2B2F26;
-  width: 75%;
+  width: 1279px;
+  height: 1079px;
   margin-left: 12%;
   background: #F2F1E8;
 }
 
 header {
   background: #FFFFFF;
-  height: 7%;
+  height: 55px;
   border-bottom: 1px solid #967343;
 }
 
@@ -36,7 +37,7 @@ header {
 }
 
 img {
-  height: 80%;
+  height: 45px;
   margin-left: 10px;
 }
 
@@ -45,7 +46,8 @@ img {
   flex-direction: row;
   list-style-type: none;
   width: 35%;
-  justify-content: space-around
+  justify-content: space-around;
+  margin-left: 90px;
 }
 
 nav {
@@ -154,13 +156,13 @@ footer {
   border-top: #968772;
   background: #2B2F26;
   color: #F2F1E8;
-  height: 10%;
-  margin-top: 20px;
+  height: 100px;
+  margin-top: 30px;
 }
 .bottom {
   display: flex;
   align-self: center;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 figcaption {
   position: absolute;
@@ -168,4 +170,3 @@ figcaption {
   background-color: #2B2F26;
   height: 30px;
   padding: 15px 15px 0px 15px;
-  color: #F2F1E8;
