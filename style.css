@@ -1,0 +1,171 @@
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #F2F1E8
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+html {
+  background: black;
+}
+
+body {
+  border: 1px solid #2B2F26;
+  width: 75%;
+  margin-left: 12%;
+  background: #F2F1E8;
+}
+
+header {
+  background: #FFFFFF;
+  height: 7%;
+  border-bottom: 1px solid #967343;
+}
+
+.logo {
+  width: 25%;
+  margin-top: 5px;
+}
+
+img {
+  height: 80%;
+  margin-left: 10px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 35%;
+  justify-content: space-around
+}
+
+nav {
+  display: flex;
+}
+
+.hyper {
+  color: #2B2F26;
+  font-size: 1.1em;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+h1 {
+  color: #131511;
+  font-size: 3.5em;
+
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+h2 {
+  color: #131511;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.row1 {
+  height: 40%;
+  margin: 0px;
+  color: #F2F1E8;
+
+}
+.row2 {
+  height: 25%;
+  margin-right: 0px;
+  color: #F2F1E8;
+}
+.background-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  align-items: flex-end;
+  position: relative;
+  vertical-align: top;
+}
+.Pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.row2:nth-child(3) {
+  width: 35%;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-6.jpg);
+  //background-position: center;
+  background-size:cover;
+}
+.row2:nth-child(1) {
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-4.jpg);
+  //background-position: center;
+  background-size: cover;
+  width: 19%;
+  margin-left: 7px;
+}
+.row2:nth-child(2) {
+  width: 19%;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-5.jpg);
+  //background-position: center;
+  background-size: cover;
+}
+.row2:nth-child(4) {
+  width: 19%;
+  margin-right: 7px;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-7.jpg);
+  //background-position: center;
+  background-size: cover;
+}
+.row1:nth-child(1) {
+  width: 56%;
+  margin-left: 7px;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-1.jpg);
+  //background-position: center;
+  background-size: cover;
+}
+.row1:nth-child(2) {
+  width: 19%;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-2.jpg);
+  //background-position: center;
+  background-size: contain;
+
+}
+.row1:nth-child(3) {
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-3.jpg);
+  //background-position: center;
+  background-size: contain;
+  width: 19%;
+  margin-right:7px;
+}
+footer {
+  display: flex;
+  border-top: #968772;
+  background: #2B2F26;
+  color: #F2F1E8;
+  height: 10%;
+  margin-top: 20px;
+}
+.bottom {
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  background-color: #2B2F26;
+  height: 30px;
+  padding: 15px 15px 0px 15px;
+  color: #F2F1E8;
