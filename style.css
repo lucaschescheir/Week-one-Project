@@ -13,22 +13,20 @@ Button Text (Hover): #F2F1E8
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-html {
-  background: black;
-}
+
 
 body {
   border: 1px solid #2B2F26;
   width: 1279px;
-  height: 1079px;
-  margin-left: 12%;
+  //height: 1060px;
+
   background: #F2F1E8;
 }
 
 header {
   background: #FFFFFF;
-  height: 55px;
-  border-bottom: 1px solid #967343;
+  height: 70px;
+  border-bottom: 1px solid #968772;
 }
 
 .logo {
@@ -39,6 +37,7 @@ header {
 img {
   height: 45px;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 .bar {
@@ -47,7 +46,7 @@ img {
   list-style-type: none;
   width: 35%;
   justify-content: space-around;
-  margin-left: 90px;
+  margin-left: 75px;
 }
 
 nav {
@@ -56,7 +55,7 @@ nav {
 
 .hyper {
   color: #2B2F26;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 .title {
   display: flex;
@@ -66,9 +65,9 @@ nav {
 }
 h1 {
   color: #131511;
-  font-size: 3.5em;
+  font-size: 4.5em;
 
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 5px;
   font-weight: normal;
 }
@@ -76,18 +75,23 @@ h2 {
   color: #131511;
   margin-bottom: 20px;
   margin-top: 0;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: lighter;
 }
 .row1 {
-  height: 40%;
+  height: 370px;
   margin: 0px;
   color: #F2F1E8;
+  font-size: 1.5em;
+  //padding-bottom: 10px;
+
+
 
 }
 .row2 {
-  height: 25%;
+  height: 240px;
   margin-right: 0px;
+  font-size: 1.5em;
   color: #F2F1E8;
 }
 .background-images {
@@ -101,11 +105,12 @@ h2 {
 }
 .Pictures {
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: space-around;
 }
 .row2:nth-child(3) {
-  width: 35%;
+  width: 480px;
   background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-6.jpg);
   //background-position: center;
   background-size:cover;
@@ -124,14 +129,14 @@ h2 {
   background-size: cover;
 }
 .row2:nth-child(4) {
-  width: 19%;
-  margin-right: 7px;
+  width: 243px;
+  margin-right: 5px;
   background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-7.jpg);
   //background-position: center;
   background-size: cover;
 }
 .row1:nth-child(1) {
-  width: 56%;
+  width: 730px;
   margin-left: 7px;
   background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-1.jpg);
   //background-position: center;
@@ -158,6 +163,8 @@ footer {
   color: #F2F1E8;
   height: 100px;
   margin-top: 30px;
+  font-size: 1.3em;
+  margin-bottom: 0px;
 }
 .bottom {
   display: flex;
@@ -168,5 +175,6 @@ figcaption {
   position: absolute;
   bottom: 20px;
   background-color: #2B2F26;
-  height: 30px;
-  padding: 15px 15px 0px 15px;
+  height: 40px;
+  padding: 10px 15px 0px 15px;
+  text-align: center;
