@@ -14,19 +14,25 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
 
-
+html {
+  width: 100%;
+}
 body {
-  border: 1px solid #2B2F26;
-  width: 1279px;
-  //height: 1060px;
-
   background: #F2F1E8;
+  margin: 0px 0px;
 }
 
 header {
   background: #FFFFFF;
   height: 70px;
   border-bottom: 1px solid #968772;
+  //overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  //margin-bottom: 60px;
+  width: 100%;
+  z-index: 1;
 }
 
 .logo {
@@ -67,13 +73,13 @@ h1 {
   color: #131511;
   font-size: 4.5em;
 
-  margin-top: 60px;
+  margin-top: 130px;
   margin-bottom: 5px;
   font-weight: normal;
 }
 h2 {
   color: #131511;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 0;
   font-size: 2.5em;
   font-weight: lighter;
@@ -162,9 +168,11 @@ footer {
   background: #2B2F26;
   color: #F2F1E8;
   height: 100px;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 25px;
   font-size: 1.3em;
   margin-bottom: 0px;
+  margin-left: 0px;
 }
 .bottom {
   display: flex;
