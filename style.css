@@ -21,6 +21,7 @@ body {
   background: #F2F1E8;
   margin: 0px 0px;
   width: 1275;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -313,7 +314,7 @@ aside {
 table {
   border-collapse: collapse;
   font-size: 1.1em;
-  width: 695px;
+  
   height: 245px;
 }
 
