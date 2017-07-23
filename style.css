@@ -13,24 +13,23 @@ Button Text (Hover): #F2F1E8
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-
 html {
   width: 100%;
 }
+
 body {
   background: #F2F1E8;
   margin: 0px 0px;
+  width: 1275;
 }
 
 header {
   background: #FFFFFF;
   height: 70px;
-  border-bottom: 1px solid #968772;
-  //overflow: hidden;
+  border-bottom: 1px solid #968772; //overflow: hidden;
   position: fixed;
   left: 0;
-  top: 0;
-  //margin-bottom: 60px;
+  top: 0; //margin-bottom: 60px;
   width: 100%;
   z-index: 1;
 }
@@ -63,20 +62,21 @@ nav {
   color: #2B2F26;
   font-size: 1.5em;
 }
+
 .title {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
+
 h1 {
   color: #131511;
   font-size: 4.5em;
-
   margin-top: 130px;
   margin-bottom: 5px;
   font-weight: normal;
 }
+
 h2 {
   color: #131511;
   margin-bottom: 30px;
@@ -84,22 +84,21 @@ h2 {
   font-size: 2.5em;
   font-weight: lighter;
 }
+
 .row1 {
   height: 370px;
   margin: 0px;
   color: #F2F1E8;
-  font-size: 1.5em;
-  //padding-bottom: 10px;
-
-
-
+  font-size: 1.5em; //padding-bottom: 10px;
 }
+
 .row2 {
   height: 240px;
   margin-right: 0px;
   font-size: 1.5em;
   color: #F2F1E8;
 }
+
 .background-images {
   display: flex;
   flex-wrap: wrap;
@@ -109,59 +108,60 @@ h2 {
   position: relative;
   vertical-align: top;
 }
+
 .Pictures {
   display: flex;
   position: relative;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .row2:nth-child(3) {
   width: 480px;
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-6.jpg);
-  //background-position: center;
-  background-size:cover;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-6.jpg); //background-position: center;
+  background-size: cover;
 }
+
 .row2:nth-child(1) {
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-4.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-4.jpg); //background-position: center;
   background-size: cover;
   width: 19%;
   margin-left: 7px;
 }
+
 .row2:nth-child(2) {
   width: 19%;
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-5.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-5.jpg); //background-position: center;
   background-size: cover;
 }
+
 .row2:nth-child(4) {
   width: 243px;
   margin-right: 5px;
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-7.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-7.jpg); //background-position: center;
   background-size: cover;
 }
+
 .row1:nth-child(1) {
   width: 730px;
   margin-left: 7px;
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-1.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-1.jpg); //background-position: center;
   background-size: cover;
 }
+
 .row1:nth-child(2) {
   width: 19%;
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-2.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-2.jpg); //background-position: center;
   background-size: contain;
-
 }
+
 .row1:nth-child(3) {
-  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-3.jpg);
-  //background-position: center;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/product-3.jpg); //background-position: center;
   background-size: contain;
   width: 19%;
-  margin-right:7px;
+  margin-right: 7px;
 }
+
 footer {
   display: flex;
   border-top: #968772;
@@ -174,15 +174,159 @@ footer {
   margin-bottom: 0px;
   margin-left: 0px;
 }
+
 .bottom {
   display: flex;
   align-self: center;
   margin-left: 20px;
 }
-figcaption {
+
+.index {
   position: absolute;
   bottom: 20px;
   background-color: #2B2F26;
   height: 40px;
   padding: 10px 15px 0px 15px;
   text-align: center;
+}
+
+
+/*CSS for about*/
+
+.main-top {
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
+  //margin: 0px 200px;
+}
+
+#first-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  font-size: 5em;
+  margin-bottom: 70px; //margin-left: 240px;
+}
+
+.birdhouse {
+  float: left;
+  height: 120px;
+  width: 160px;
+  margin-right: 30px;
+  margin-left: 200px;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 80px 205px 40px;
+  color: #131511;
+  font-weight: lighter;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  margin: 0px 205px 50px 205px;
+  border-left: 1.5px solid #131511;
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: normal;
+  padding-left: 40px;
+  color: #131511;
+}
+
+#second-title {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 205px 0px 205px; //border: 1px solid red;
+}
+
+#second-paragraph {
+  //border: 1px solid red;
+  margin-top: 20px;
+}
+
+.background-middle {
+  height: 320px;
+  width: 100%;
+  background-image: url(/Users/lucaschescheir/Dev-School/week-one-project/images/optimized/background-3.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: white;
+}
+
+#grow {
+  position: absolute;
+  bottom: 130px;
+}
+
+#second-head {
+  margin-top: 20px;
+  margin-left: 205;
+  margin-bottom: 0px;
+  font-size: 2em;
+  width: 100%;
+}
+
+#second-p {
+  margin-top: 20px;
+  height: 210px;
+  width: 660px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+.main-bottom {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+
+.background-1 {
+  height: 120;
+  width: 160;
+  margin: 20px 0px 15px 30px;
+}
+
+#caption {
+  height: 95px;
+  width: 160px;
+  font-size: 1em;
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.Table-bottom {
+  margin-left: 205px;
+  margin-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.1em;
+  width: 695px;
+  height: 245px;
+}
+
+tr:nth-child(even) {
+  background-color: #F9F1E5
+}
+
+table, td, th {
+  border: 1px solid black;
+  padding: 10px 10px 10px 20px;
+  font-size: 1.2em;
+}
+
+#table-name {
+  margin-bottom: 10px;
+}
